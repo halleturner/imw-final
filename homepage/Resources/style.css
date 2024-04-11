@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #242424;
+    height: 100vh;
+    width: 100vw;
+    cursor: url('white-dot.png'), auto;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px 50px;
+}
+
+h1 {
+
+    color: white;
+    font-family: "omnium-tagline", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    color: white;
+    font-family: "ariel", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-family: "omnium-tagline", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}

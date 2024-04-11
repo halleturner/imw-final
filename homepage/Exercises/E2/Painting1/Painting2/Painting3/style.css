@@ -1,0 +1,46 @@
+body {
+    background-color: #f7f7f7;
+}
+.painting-3 {
+    display: grid;
+    width: 600px;
+    height: 600px;
+
+    /* for testing */
+    border: 1px solid black; 
+    
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+.cream {
+    background-color: #FCF6E8;
+}
+
+.red {
+    background-color: #B61A30;
+}
+
+.blue {
+    background-color: #284B8F;
+}
+
+.black {
+    background-color: #0F1012;
+}
+
+.border-bottom {
+    border-bottom: 17px solid #0F1012;
+}
+
+.border-left {
+    border-left: 17px solid #0F1012;
+}
+
+.border-right {
+    border-right: 17px solid #0F1012;
+}
+
+.border-top {
+    border-top: 17px solid #0F1012;
+}

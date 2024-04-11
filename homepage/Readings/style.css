@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #242424;
+    height: 100vh;
+    width: 100vw;
+    cursor: url('homepage/white-dot.png'), auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 616px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "omnium-tagline", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+.exercise {
+    font-size: 64px;
+    color: white;
+    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px rgb(246, 255, 0), 0 0 82px rgb(246, 255, 0), 0 0 92px white; */
+    text-align: center;
+
+}
+
+.storybook:hover {
+    animation: glow 10s ease-in-out;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgb(255, 248, 155), 0 0 20px rgb(255, 248, 155), 0 0 30px rgb(255, 248, 155), 0 0 40px rgb(255, 248, 155), 0 0 50px rgb(255, 248, 155);
+    }
+
+    to {
+        text-shadow: 0 0 60px rgb(255, 248, 155), 0 0 70px rgb(255, 248, 155);
+    }
+
+}
+
+.poster:hover {
+    animation: glow 10s ease-in-out;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgb(255, 248, 155), 0 0 20px rgb(255, 248, 155), 0 0 30px rgb(255, 248, 155), 0 0 40px rgb(255, 248, 155), 0 0 50px rgb(255, 248, 155);
+    }
+
+    to {
+        text-shadow: 0 0 60px rgb(255, 248, 155), 0 0 70px rgb(255, 248, 155);
+    }
+
+}
+
+.interaction:hover {
+    animation: glow 10s ease-in-out;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgb(255, 248, 155), 0 0 20px rgb(255, 248, 155), 0 0 30px rgb(255, 248, 155), 0 0 40px rgb(255, 248, 155), 0 0 50px rgb(255, 248, 155);
+    }
+
+    to {
+        text-shadow: 0 0 60px rgb(255, 248, 155), 0 0 70px rgb(255, 248, 155);
+    }
+
+}

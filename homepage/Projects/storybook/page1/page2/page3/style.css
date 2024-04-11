@@ -1,0 +1,82 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    margin: 0;
+    padding: 0;
+
+    /* For testing */
+    border: 1px solid black; 
+
+}
+
+.sky {
+    background-color: #2F4374;
+}
+
+.line {
+    border-right: 4px solid #7DA151;
+    height: 100px;
+}
+
+.cbody {
+    background-color: #7DA151;
+    width: 100%;
+    height: 100%;
+}
+
+.cocoon-top-left {
+    background-color: #7DA151;
+    width: 100%;
+    height: 100%;
+    border-radius: 100% 0 0 0;
+}
+
+.cocoon-top-right {
+    background-color: #7DA151;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 100% 0 0;
+}
+
+.cocoon-bottom-left {
+    background-color: #7DA151;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 100%;
+}
+
+.cocoon-bottom-right {
+    background-color: #7DA151;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 100% 0;
+}
+
+r {
+    height: 200px;
+    font-size: 35px;
+    transition: all 2s ease;
+    light-height: normal;
+}
+
+.cbody {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
